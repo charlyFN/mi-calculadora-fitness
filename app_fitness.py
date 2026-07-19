@@ -9,7 +9,7 @@ st.write("configura tu perfil para obtener tus macros y recomendaciones.")
 with st.sidebar:
     st.header("tu Perfil")
     nombre = st.text_input("Nombre:",value="usuario")
-    genero = st.selectbox("Genero:"["Masculino","Femenino"])
+    genero = st.selectbox("Genero:",["Masculino","Femenino"])
     peso = st.number_input("Peso actual(kg):", value=80.0)
     estatura = st.number_input("Estatura(cm):", value=170)
     edad = st.number_input("Edad:", value=30)
@@ -60,4 +60,3 @@ with col_f1:
 with col_f2:
     st.warning("💡 **Tip de fibra:**")
     st.write("intenta comer la fruta entera en lugar de jugos para mantenerte saciadopor mas tiempo.")
-                
