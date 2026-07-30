@@ -63,7 +63,7 @@ if carbos < 0:
     carbos = 0
 
 # ---VISUALIZACION---
-st.sunheader(f"Plan pesonalizado para:{nombre}")
+st.subheader(f"Plan pesonalizado para:{nombre}")
 c1, c2, c3 = st.columns(3)
 c1.metric("⚡️ Calorias Diarias", f"{int(calorias_meta)}kcal")
 c2.metric("🍗 Proteina", f"{int(proteina)}g")
