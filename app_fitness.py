@@ -8,7 +8,7 @@ st.write("Configura tu perfil para obtener tus macros y recomendaciones exactas.
 # --- ENTRADA DE DATOS ---
 with st.sidebar:
     st.header("Tu perfil")
-    nombre = st.txt_input("Nombre:", value="Usuario")
+    nombre = st.text_input("Nombre:", value="Usuario")
     genero = st.select.box("Genero:", ["Masculino","Femenino"])
     peso = st.number_input("Peso actual (kg):", value=80.0)
     estatura = st.number_input("Estatura (cm):", value=170)
